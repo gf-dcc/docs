@@ -1,0 +1,38 @@
+.DS_STORE
+
+# Dependency directory
+node_modules
+
+scripts/flow/*/.flowconfig
+.flowconfig
+*~
+*.pyc
+.grunt
+_SpecRunner.html
+__benchmarks__
+build/
+remote-repo/
+coverage/
+
+# Caches
+.module-cache
+.npm
+
+# Tests
+fixtures/dom/public/react-dom.js
+fixtures/dom/public/react.js
+test/the-files-to-test.generated.js
+
+*.log*
+chrome-user-data
+
+
+.idea
+*.iml
+.vscode
+*.swp
+*.swo
+
+# REPL history
+.node_repl_history
+.next
