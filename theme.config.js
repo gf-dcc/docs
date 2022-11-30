@@ -1,6 +1,6 @@
 export default {
-  projectLink: 'https://github.com/shuding/nextra', // GitHub link in the navbar
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master', // base URL for the docs repository
+  projectLink: 'https://github.com/gf-dcc/docs', // GitHub link in the navbar
+  docsRepositoryBase: 'https://github.com/gf-dcc/docs/blob/main', // base URL for the docs repository
   titleSuffix: ' – Nextra',
   nextLinks: true,
   prevLinks: true,
@@ -8,12 +8,12 @@ export default {
   customSearch: null, // customizable, you can use algolia for example
   darkMode: true,
   footer: true,
-  footerText: `MIT ${new Date().getFullYear()} © Shu Ding.`,
+  footerText: ``,
   footerEditLink: `Edit this page on GitHub`,
   logo: (
     <>
       <svg>...</svg>
-      <span>Next.js Static Site Generator</span>
+      <span></span>
     </>
   ),
   head: (
