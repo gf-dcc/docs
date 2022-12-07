@@ -5,3 +5,7 @@ These docs are provided by the Gray Foundation Data Coordinating Center (GF-DCC)
 ## Contact
 If you have questions or suggestions, please [file an issue](https://github.com/gf-dcc/docs/issues) (preferred); alternatively, if you do not have a GitHub account, contact us at gray-foundation-service@sagebase.org.
 
+## For Contributors
+
+Please add or update a page/section in a new branch and submit a pull request (PR).
+
