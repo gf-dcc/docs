@@ -1,7 +1,8 @@
 {
   "index": "Home",
   "about": "About",
-  "contacts": "Contact Us",
   "research": "Research",
-  "help": "Help"
+  "resources": "Resources for Research Teams",
+  "help": "Help",
+  "contacts": "Contacts"
 }
