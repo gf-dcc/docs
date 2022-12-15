@@ -1,7 +1,7 @@
 {
-  "index": "About",
-  "the-consortium": "The Consortium",
-  "the-portals": "The Portals",
-  "data-governance": "Data Governance",
-  "data-model": "Data Model"
+  "index": "Home",
+  "About": "About",
+  "Contacts": "Contact Us",
+  "Research": "Research",
+  "Help": "Help"
 }
