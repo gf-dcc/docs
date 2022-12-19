@@ -9,3 +9,9 @@ If you have questions or suggestions, please [file an issue](https://github.com/
 
 Please add or update a page/section in a new branch and submit a pull request (PR).
 
+We're using the [Nextra](https://github.com/shuding/nextra) docs theme.
+
+### Getting Started Locally 
+
+Install packages, edit and run `yarn next` to preview the site at `http://localhost:3000`.
+
