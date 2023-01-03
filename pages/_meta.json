@@ -1,7 +1,9 @@
 {
-  "index": "About",
-  "the-consortium": "The Consortium",
-  "the-portals": "The Portals",
-  "data-governance": "Data Governance",
-  "data-model": "Data Model"
+  "index": "Home",
+  "about": "About",
+  "research": "Research",
+  "resources": "Resources for Research Teams",
+  "data-model": "Data Model Reference",
+  "help": "Help",
+  "contacts": "Contacts"
 }
