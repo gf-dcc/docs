@@ -2,21 +2,37 @@
 
 # Data Access
 
-Data access to a dataset depends on:
-- Whether a dataset is under embargo
-- Type of dataset, i.e. whether there are additional access controls for sensitive datasets
-- Role of the data requestor
-- Other variables 
 
-## Data access statuses
+## Data Access Types
 
-(To be updated)
+Data access for Gray Foundation corresponds to the general [data access types described for the Synapse platform](https://help.synapse.org/docs/Data-Access-Types.2014904611.html). 
 
-- Make Private
-- All registered Synapse users 
-- Anyone on the web 
+However, we will try to color-code the types and provide any other helpful and consortium-specific context for each type below.
 
-## Minimum requirements for downloading data
+### Private Access Data (pink tag)
 
-(To be updated)
+- Data is private and downloable only through the individuals or teams explicitly granted with those permissions. 
+- Admins for the team's repository can grant view or download access by adding individuals or teams to the folder or project. This allows data to be shared for collaboration without making data public.
+- In conversational context, this data might also be referred to as "under embargo".
+
+### Controlled Access (yellow tag)
+
+- Registered Synapse users can download this data as long as they fulfill additional actions such as accepting Conditions of Use, submitting a statement, or getting an approval from governance.
+- Since these controls are implemented through a different data access layer, for _certain_ controls, once they are applied, even individuals on the Access Control List with download permissions will need to complete the required action to download data.
+
+### Public Data (blue tag)
+
+- Anyone on the web can view the data, but only registered Synapse users can download this data. Data can be downloaded without any restrictions or additional steps required. 
+- This is  the most common data access type for Gray Foundation.
+
+### Open Data (green tag)
+
+- Anyone on the web can view and download this data, no account needed.
+- Most data that appears in an analysis tool/portal (e.g. cBioPortal) should be of this type. 
+
+
+
+
+
+
 
