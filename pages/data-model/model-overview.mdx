@@ -2,6 +2,36 @@
 
 # Model Overview
 
-This documentation is in progress.
+## What is a data model?
+
+    > A data model organizes data elements and standardizes how the data elements relate to one another. 
+    It explicitly determines the structure of the data. 
+
+   -- [Princeton University](https://cedar.princeton.edu/understanding-data/what-data-model)
+
+The Gray Foundation’s data model is derived from several data standards such as the [Genomics Data Commons](https://gdc.cancer.gov/about-data/data-standards) but has also been adapted to fit the needs of the consortium. 
+It outlines, defines, and standardizes how data such as clinical data are represented and how they relate to one another, e.g. a patient has a diagnosis and receives therapy. 
+One of the most important relations is of clinical data to generated data -- in Gray Foundation, most generated data are human data and need to be tied to the original patients for useful analysis.  
+
+The section [Clinical Data](/data-model/clinical-data) explains what clinical data are prioritized.
+In the data model, attributes are grouped into “components” or “modules”, e.g. patient-related attributes such as `age`, `sex`, etc., are in a patient core component. 
+Attributes appear as columnnar fields in a table when collecting data. They may be required or optional and may have controlled terminologies for the values.
+
+## What is metadata?
+
+    > Metadata is additional, standardized information included alongside the data to give it context—data about the data, if you will. 
+    Metadata is what allows data in the portal to be searchable, discoverable, accessible, re-usable, and understandable to others, including those who were not involved in the data generation process.
+    Metadata can be descriptive (i.e., the name of the file), administrative (i.e., provenance information), or research-based (i.e., information about the sampling and handling of data).
+    
+    -- [AD Knowledge Portal Glossary](https://sagebionetworks.jira.com/wiki/spaces/APD/pages/edit-v2/2062254225#Metadata)
+
+Metadata can also be thought of as "data about data", while clinical data can be thought of as "data about patients". 
+On the Synapse platform, adding metadata to data entities (files) is most often called "annotating", and metadata is interchangeably called "annotations". 
+The [Dataset and File Metadata](/data-model/dataset-file-metadata) section goes into more detail what annotations are expected for datasets and different file types.
+
+## Support and contributions
+
+For questions/discussions, suggestions, and issues (bugs) regarding the data model, it is preferred that members [submit an issue at our source repository](https://github.com/gf-dcc/data-model/issues/new). 
+Note that this requires a GitHub account. If you do not have a GitHub account, please reach out to one our DCC staff listed in [Contacts](#contacts).
 
 
