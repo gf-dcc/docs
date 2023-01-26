@@ -1,10 +1,16 @@
 {
-  "index": "Home",
-  "about": "About",
-  "events": "Events",
-  "research": "Funded Research",
-  "resources": "Resources for Research Teams",
-  "data-model": "Data Model Reference",
-  "help": "Help",
-  "contacts": "Contacts"
+  "index": {
+    "title": "Home",
+    "type": "menu",
+    "items": {
+      "about": {
+        "title": "Gray Foundation",
+        "href": "/about-gray-foundation"
+      },
+       "datacoordinating": {
+        "title": "Data coordinating Center",
+        "href": "/data-coordinating-center"
+      }
+    }
+  }
 }
