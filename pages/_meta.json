@@ -1,10 +1,9 @@
 {
   "index": "Home",
   "about": "About",
-  "events": "Events",
-  "research": "Funded Research",
-  "resources": "Resources for Research Teams",
-  "data-model": "Data Model Reference",
+  "awardees": "Awardees",
+  "onboarding": "Onboarding",
+  "data-model": "Data Model",
   "help": "Help",
   "contacts": "Contacts"
 }
