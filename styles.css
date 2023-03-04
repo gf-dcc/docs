@@ -13,7 +13,7 @@
 }
 
 .dark {
-  --shiki-color-text: #FF0000;
+  --shiki-color-text: #ff0000;
   --shiki-token-constant: #79b8ff;
   --shiki-token-string: #ffab70;
   --shiki-token-comment: #6b737c;
