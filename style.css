@@ -1,6 +1,6 @@
 :root {
-  --shiki-color-text: #414141;
-  --shiki-color-background: transparent;
+  --shiki-color-text: #ffffff;
+  --shiki-color-background: #474494;
   --shiki-token-constant: #1976d2;
   --shiki-token-string: #22863a;
   --shiki-token-comment: #aaa;
