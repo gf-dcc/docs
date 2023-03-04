@@ -1,11 +1,6 @@
-import styles from '../styles.module.css'
+import 'docs/styles.css'
 
-const Home = () => {
-  return (
-    <div className={styles.hello}>
-      <p>Hello World</p>
-    </div>
-  )
+// This default export is required in a new `pages/_app.js` file.
+export default function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
-
-export default Home
