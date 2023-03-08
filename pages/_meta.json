@@ -1,9 +1,7 @@
 {
   "index": "Home",
-  "about": "About",
+  "governance": "Governance and Data Sharing",
   "awardees": "Awardees",
-  "onboarding": "Onboarding",
-  "data-model": "Data Model",
-  "help": "Help",
-  "contacts": "Contacts"
+  "onboarding": "Onboarding Instructions",
+  "faq": "Frequently Asked Questions",
 }
