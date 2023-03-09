@@ -2,9 +2,9 @@
   "*": {
     "type": "page"
   },
-  "index": "Home",
-  "governance": "Governance",
-  "awardees": "Awardees",
-  "onboarding": "Onboarding",
-  "faq": "Frequently Asked Questions"
+  "index": "🏠 Home",
+  "governance": "🔐 Governance",
+  "awardees": "✨ Awardees",
+  "onboarding": "🗎 Onboarding",
+  "faq": "🤔 Frequently Asked Questions"
 }
