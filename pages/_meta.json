@@ -1,7 +1,22 @@
 {
-  "index": "Home",
-  "governance": "Governance",
-  "awardees": "Awardees",
-  "onboarding": "Onboarding",
-  "faq": "Frequently Asked Questions"
+  "index": {
+    "title": "Home",
+    "type": "page"
+  },
+  "governance": {
+    "title": "Governance",
+    "type": "page"
+  },
+  "awardees": {
+    "title": "Awardees",
+    "type": "page"
+  },
+  "onboarding": {
+    "title": "Onbarding",
+    "type": "page"
+  }
+    "faq": {
+    "title": "Frequently Asked Questions",
+    "type": "page"
+  }
 }
