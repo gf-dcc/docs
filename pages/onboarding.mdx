@@ -1,1 +1,145 @@
 
+
+import { Tab, Tabs } from 'nextra-theme-docs'
+ 
+<Tabs items={['Onboarding Check-List', 'Submitting Data', 'Annotating Files', 'Data Processing', 'Analyzing Data']}>
+  <Tab>
+    **Onboarding Check-List**: 
+   
+We welcome new teams with an overview that covers the Gray Foundation DCC and what setup is needed. For new staff, who may join a team some time after the project has started, there is [Supplemental Onboarding](#supplemental-onboarding), which is shorter and more flexible.
+
+We give a general overview of the interactions and steps part of the onboarding.
+   
+## New Teams Initial Onboarding
+
+### New Teams Webinar Hosted by the DCC (Approximately 1 hour)
+The objective of this webinar is to: 
+- Provide a face-to-face introduction to the DCC staff including Sage Bionetworks and MSKCC
+- Review the [Onboarding Checklist](#new-teams-onboarding-checklist)
+- Introduce teams to open-science data storage and analysis tools (ie. Synapse and cBioportal)
+- Discuss potential data sharing goals and brain storm data-reusability and analysis opportunities
+- Inform teams of opportunities to join working groups (i.e. the governance working group) and collaborate with other Gray Foundation researchers
+
+### New Teams Onboarding Checklist
+
+#### For Principal Investigators: 
+- [ ] Designate at least one data lead contact for team. Note: there may be multiple data lead(s) because there are multiple individuals responsible for different data types.
+- [ ] Create certified accounts on the Synapse platform.
+- [ ] Complete data sharing plan template.
+- [ ] Review and approve their public profile on the site.
+- [ ] Forward all relevant additional email contacts, noting key personnel and contact preferences, to the DCC.
+- [ ] Help finalize governance working group goals and schedule
+- [ ] (Optional) Join the Gray Foundation Slack workspace.
+
+
+#### For data leads and contributors:
+- [ ] Confirm review of documentation and forward any questions or concerns to be addressed early on. 
+- [ ] Decide a preferred touchbase baseline schedule and medium (e.g. quarterly over videochat or monthly over email).
+- [ ] Create certified accounts on the Synapse platform.
+- [ ] Confirm that they have been added with appropriate team access permissions on the platform.
+- [ ] (Optional) Get more interactive training on Synapse platform. This is recommended if data lead(s) have never used Synapse or a similar platform and are not comfortable with usage based solely upon the documentation.  
+- [ ] (Optional, upon request) Get more interactive training of the clinical data and metadata intake process. This is recommended if data lead(s) are not comfortable with usage based solely upon the documentation.  
+- [ ] (Optional) Join the Gray Foundation Slack workspace.
+
+## Supplemental Onboarding
+
+Onboarding is available for new personnel and are designated data lead(s) after a project has been started. 
+Please contact the DCC if you As soon as the DCC is aware of the new personnel relevant to the project, we will reach out with onboarding interactions and steps adapted from the above; this can be more flexible because there may already have been some knowledge transfer. 
+   
+  </Tab>
+  <Tab>
+    **Submitting Data**: 
+    
+    This will have info here
+    
+  </Tab>
+  <Tab>
+    **Annotating Files**:
+    
+# Dataset and File Metadata
+
+(This documentation is in progress.)
+
+For Gray Foundation, assay-specific metadata is collected for the contributed data files. 
+Metadata needed for sequencing `.fastq` data from RNA-seq assay is different from metadata for image data from an IHC assay -- therefore a different metadata template is provided for each of these data types.  
+Moreover, even with the same assay, the output from different levels of processing will require different metadata. 
+The "raw" sequencing `.fastq` data from RNA-seq require slightly different annotations than summarized expression data. 
+For more on this distinction of levels of processing, see below in [About data levels](#about-data-levels). 
+
+### About data levels
+
+Our data levels is highly derived from the Genomics Data Commons [data levels](https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/data-levels). 
+
+(TO DO: Updated tables/diagrams go here)
+
+
+# Clinical Data
+
+(This documentation is in progress.)
+
+## What's important?
+
+In defining the clinical data portion of the data model, some of the important questions were:
+- How do we represent (model) a patient studied by the project teams as consistently as possible?
+- What data can be feasibly collected and standardized across each of the project teams given the goals of the consortium?
+
+The clinical data model development has involved a Request for Comments (RFC) process. 
+Continued development, if necessary, will involve additional RFCs. 
+
+Please see the public [first RFC document](https://coda.io/@gf-dcc/rfc-1-mcdm) (archived/closed) that has helped determine the current core model.
+
+## Diagram
+
+(To be updated.)
+
+
+## Metadata Dictionary
+  </Tab>
+    <Tab>
+    **Processing Data**: 
+    
+(To be updated) This documents some of the data processing (e.g. pipelines) used by the consortiums teams and the Data Coordinating Center (DCC) for bringing data to the Analysis Portals.
+    
+  </Tab>
+  
+      <Tab>
+    **Analyzing Data**: 
+    
+
+The “Analysis Portal” aims to provide the most appropriate analysis and visualization functionality for each data type. 
+It can refer to multiple apps/platforms because no one platform supports all data types. 
+The team at Memorial Sloan Kettering Cancer Center (MSK) develops, adapts, and maintains all the component apps/platforms for the Gray Foundation-generated data.
+Below, we describe the ones that will be available for the Gray Foundation consortium and their primary data targets.
+
+## cBioPortal
+
+The [cBioPortal](https://docs.cbioportal.org/) for Cancer Genomics was originally developed at Memorial Sloan Kettering Cancer Center (MSK) for sharing of **genomics** data. 
+For the Gray Foundation, the data which are available include:
+
+- Copy Number Variation (CNV)
+- Gene Expression (RNA-seq)
+- Mutations
+
+## CELLxGENE 
+
+[CELLxGENE](https://github.com/chanzuckerberg/cellxgene) ("cell-by-gene") is an interactive data explorer for **single-cell datasets**.
+
+- scRNA-seq datasets
+
+## Minerva Viewer
+
+[Minerva](https://www.cycif.org/software/minerva) is an image viewer with multiple layers and interactive zooming/panning.
+
+Gray foundation datasets visualizable through this app:
+- t-CyCIF
+    
+  </Tab>
+  
+</Tabs>
+
+
+
+
+
+
+
