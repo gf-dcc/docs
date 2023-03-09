@@ -1,22 +1,22 @@
 {
   "index": {
-    "title": "Home",
+    "title": "index",
     "type": "page"
   },
   "governance": {
-    "title": "Governance",
+    "title": "governance",
     "type": "page"
   },
   "awardees": {
-    "title": "Awardees",
+    "title": "awardees",
     "type": "page"
   },
   "onboarding": {
-    "title": "Onbarding",
+    "title": "onboarding",
     "type": "page"
   }
     "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "faq",
     "type": "page"
   }
 }
