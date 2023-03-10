@@ -2,34 +2,36 @@
 
 import { Tab, Tabs } from 'nextra-theme-docs'
  
-<Tabs items={['Onboarding Check-List', 'Submitting Data', 'Annotating Files', 'Analyzing Data']}>
+<Tabs items={['🏁 Getting Started', '💻 Submitting Data', '🖊️ Annotating Files',: '📊 Analyzing Data']}>
   <Tab>
  
-We welcome new teams with an overview that covers the Gray Foundation DCC and what setup is needed. For new staff, who may join a team some time after the project has started, there is [Supplemental Onboarding](#supplemental-onboarding), which is shorter and more flexible.
-
-We give a general overview of the interactions and steps part of the onboarding.
+**👋 We welcome new teams/new staff with an overview that covers the Gray Foundation Data Coordination Center and what setup is needed.** 
    
-## New Teams Initial Onboarding
+ **New Teams Webinar**
+   _All personnel (PI, researchers, staff, project managers, etc) are encouraged to attend a "New Teams Webinar hosted by Sage Bionetworks/DCC._
 
-### New Teams Webinar Hosted by the DCC (Approximately 1 hour)
-The objective of this webinar is to: 
+   The objective of this 1-hour webinar is to: 
 - Provide a face-to-face introduction to the DCC staff including Sage Bionetworks and MSKCC
-- Review the [Onboarding Checklist](#new-teams-onboarding-checklist)
+- Review the "Onboarding Checklist"
 - Introduce teams to open-science data storage and analysis tools (ie. Synapse and cBioportal)
 - Discuss potential data sharing goals and brain storm data-reusability and analysis opportunities
-- Inform teams of opportunities to join working groups (i.e. the governance working group) and collaborate with other Gray Foundation researchers
+- Inform teams of opportunities to join working groups (i.e. the analysis working group) and collaborate with other Gray Foundation researchers
 
-### New Teams Onboarding Checklist
+#### New Teams Onboarding Checklist 
 
+from ipywidgets import Checkbox
+mycheckbox = Checkbox()
+display(mycheckbox)
+
+   
 #### For Principal Investigators: 
-- [ ] Designate at least one data lead contact for team. Note: there may be multiple data lead(s) because there are multiple individuals responsible for different data types.
-- [ ] Create certified accounts on the Synapse platform.
-- [ ] Complete data sharing plan template.
-- [ ] Review and approve their public profile on the site.
-- [ ] Forward all relevant additional email contacts, noting key personnel and contact preferences, to the DCC.
-- [ ] Help finalize governance working group goals and schedule
+- [ ] Designate at least one data lead contact for team. (_There may be multiple data lead(s) because there are multiple individuals responsible for different data types._)
+- [ ] Create a certified account on the Synapse platform.
+- [ ] Complete a data sharing plan.
+- [ ] Review and approve your public profile on documentation site and Synapse
+- [ ] Send name/email address/role of key personnel to the DCC.
+- [ ] Finalize governance/data sharing policy plans
 - [ ] (Optional) Join the Gray Foundation Slack workspace.
-
 
 #### For data leads and contributors:
 - [ ] Confirm review of documentation and forward any questions or concerns to be addressed early on. 
@@ -40,10 +42,10 @@ The objective of this webinar is to:
 - [ ] (Optional, upon request) Get more interactive training of the clinical data and metadata intake process. This is recommended if data lead(s) are not comfortable with usage based solely upon the documentation.  
 - [ ] (Optional) Join the Gray Foundation Slack workspace.
 
-## Supplemental Onboarding
+#### Supplemental Onboarding
 
 Onboarding is available for new personnel and are designated data lead(s) after a project has been started. 
-Please contact the DCC if you As soon as the DCC is aware of the new personnel relevant to the project, we will reach out with onboarding interactions and steps adapted from the above; this can be more flexible because there may already have been some knowledge transfer. 
+Please contact the DCC if you as soon as the DCC is aware of the new personnel relevant to the project, we will reach out with onboarding interactions and steps adapted from the above; this can be more flexible because there may already have been some knowledge transfer. 
    
   </Tab>
   <Tab>
@@ -54,7 +56,7 @@ Please contact the DCC if you As soon as the DCC is aware of the new personnel r
  
    <Tab>
   
-# Dataset and File Metadata
+#### Dataset and File Metadata
 
 (This documentation is in progress.)
 
@@ -64,18 +66,18 @@ Moreover, even with the same assay, the output from different levels of processi
 The "raw" sequencing `.fastq` data from RNA-seq require slightly different annotations than summarized expression data. 
 For more on this distinction of levels of processing, see below in [About data levels](#about-data-levels). 
 
-### About data levels
+#### About data levels
 
 Our data levels is highly derived from the Genomics Data Commons [data levels](https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/data-levels). 
 
 (TO DO: Updated tables/diagrams go here)
 
 
-# Clinical Data
+#### Clinical Data
 
 (This documentation is in progress.)
 
-## What's important?
+#### What's important?
 
 In defining the clinical data portion of the data model, some of the important questions were:
 - How do we represent (model) a patient studied by the project teams as consistently as possible?
@@ -86,11 +88,11 @@ Continued development, if necessary, will involve additional RFCs.
 
 Please see the public [first RFC document](https://coda.io/@gf-dcc/rfc-1-mcdm) (archived/closed) that has helped determine the current core model.
 
-## Diagram
+#### Diagram
 
 (To be updated.)
 
-## Metadata Dictionary    
+#### Metadata Dictionary    
   </Tab>
    <Tab>
   
