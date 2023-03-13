@@ -1,3 +1,5 @@
+import DocSearch from 'components/docsearch'
+
 export default {
   projectLink: 'https://github.com/gf-dcc/docs', // GitHub link in the navbar
   docsRepositoryBase: 'https://github.com/gf-dcc/docs/blob/main', // base URL for the docs repository
@@ -5,7 +7,7 @@ export default {
   nextLinks: true,
   prevLinks: true,
   search: true,
-  customSearch: null, // customizable, you can use algolia for example
+  customSearch: <DocSearch/>,
   darkMode: false,
   footer: true,
   footerText: ``,
@@ -19,23 +21,4 @@ export default {
       <meta name="og:title" content="Nextra: the next docs builder" />
     </>
   ),
-}
-
-
-/**
- * @type {import('nextra-theme-docs').DocsThemeConfig}
- */
-export default {
-  search: true
-}
-
-
-/**
- * @type {import('nextra-theme-docs').DocsThemeConfig}
- */
-export default {
-  searchPlaceholder: ({ locale }) => {
-    if (locale === 'zh-CN') return '搜索文档...'
-    return 'Search documentation...'
-  }
 }
