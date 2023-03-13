@@ -15,16 +15,14 @@ function App() {
   );
 }
 
-export default App;
-
-export {
+export default {
   projectLink: 'https://github.com/gf-dcc/docs', // GitHub link in the navbar
   docsRepositoryBase: 'https://github.com/gf-dcc/docs/blob/main', // base URL for the docs repository
   titleSuffix: ' – Nextra',
   nextLinks: true,
   prevLinks: true,
   search: true,
-  customSearch: null, // customizable, you can use algolia for example
+  customSearch: App, // customizable, you can use algolia for example
   darkMode: true,
   footer: true,
   footerText: ``,
