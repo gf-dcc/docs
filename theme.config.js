@@ -21,3 +21,21 @@ export default {
   ),
 }
 
+
+/**
+ * @type {import('nextra-theme-docs').DocsThemeConfig}
+ */
+export default {
+  search: true
+}
+
+
+/**
+ * @type {import('nextra-theme-docs').DocsThemeConfig}
+ */
+export default {
+  searchPlaceholder: ({ locale }) => {
+    if (locale === 'zh-CN') return '搜索文档...'
+    return 'Search documentation...'
+  }
+}
