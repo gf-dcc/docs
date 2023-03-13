@@ -1,4 +1,4 @@
-import DocSearch from './components/docsearch'
+import docsearch from './components/docsearch'
 
 export default {
   projectLink: 'https://github.com/gf-dcc/docs', // GitHub link in the navbar
@@ -7,9 +7,9 @@ export default {
   nextLinks: true,
   prevLinks: true,
   search: true,
-  customSearch: <DocSearch/>,
+  customSearch: <docsearch/>,
   darkMode: false,
-  footer: true,
+  footer: false,
   footerText: ``,
   footerEditLink: `Edit this page on GitHub`,
   logo: <span> </span>,
