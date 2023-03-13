@@ -12,7 +12,7 @@ export default {
   footerEditLink: `Edit this page on GitHub`,
   logo: (
     <>
-      <svg>...</svg>
+      <png>[2x transparent] sage-bionetworks-logo 1</png>
       <span></span>
     </>
   ),
