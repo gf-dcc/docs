@@ -17,7 +17,7 @@ function App() {
 
 export default App;
 
-export default {
+export {
   projectLink: 'https://github.com/gf-dcc/docs', // GitHub link in the navbar
   docsRepositoryBase: 'https://github.com/gf-dcc/docs/blob/main', // base URL for the docs repository
   titleSuffix: ' – Nextra',
