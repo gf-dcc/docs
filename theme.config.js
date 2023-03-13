@@ -1,7 +1,5 @@
 //import docsearch from './components/docsearch'
-
-
-npm install @docsearch/react@3
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/react@3"></script>
 
 import { DocSearch } from '@docsearch/react';
 
