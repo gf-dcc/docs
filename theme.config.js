@@ -6,16 +6,12 @@ export default {
   prevLinks: true,
   search: true,
   customSearch: null, // customizable, you can use algolia for example
-  darkMode: true,
+  darkMode: false,
   footer: true,
   footerText: ``,
   footerEditLink: `Edit this page on GitHub`,
-  logo: (
-    <>
-      <png>[2x transparent] sage-bionetworks-logo 1</png>
-      <span></span>
-    </>
-  ),
+  logo: <span>Gray Foundation BRCA Atlas Documentation</span>,
+
   head: (
     <>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
