@@ -10,7 +10,7 @@ export default {
   footer: true,
   footerText: ``,
   footerEditLink: `Edit this page on GitHub`,
-  logo: <span>Gray Foundation BRCA Atlas Documentation</span>,
+  logo: <span> </span>,
 
   head: (
     <>
