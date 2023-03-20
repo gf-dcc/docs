@@ -1,10 +1,12 @@
+  "governance": "🔐 Governance",
+  "awardees": "✨ Awardees",
+  "onboarding": "🗎 Onboarding",
+}
+
 {
   "*": {
     "type": "page"
   },
   "index": "🏠 Home",
-  "governance": "🔐 Governance",
-  "awardees": "✨ Awardees",
-  "onboarding": "🗎 Onboarding",
   "faq": "🤔 Frequently Asked Questions"
 }
