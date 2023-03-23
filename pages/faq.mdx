@@ -1,13 +1,14 @@
-### Who do I contact if I need help?
+#### Who do I contact if I need help?
+For questions regarding data management, community affairs, general DCC questions 
+* **Christina Conrad**, _Biomedical Data Manager_, [Schedule Meeting](https://calendly.com/christina-conrad)
+For questions regarding bioinformatics, data model and annotations, data upload & technical issues:
+* **Anh Nguyet Vu**, _Senior Biomedical Data Manager, [Schedule Meeting](https://calendly.com/a-vu)
+For questions regarding working groups, data model and annotations 
+* **Elvira Mitraka**, _Assocatiate Director of SCCE_, [Email](mailto:gray-foundation-service@sagebase.org), include `working groups` in subject for correct routing  
+For questions regarding data use/transfer agreements, other data governance
+* **Kimberly Corrigan**, _Governance Analyst_ [Email](mailto:gray-foundation-service@sagebase.org), include `governance` in subject for correct routing
 
-| Name | Affiliation | Role | Contact | Regarding |
-| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-| Christina Conrad | Sage Bionetworks | Biomedical Data Manager |  [Schedule Meeting](https://calendly.com/christina-conrad) | data management, community affairs, general DCC questions 
-| Anh Nguyet Vu | Sage Bionetworks | Bioinformatics Engineer | [Schedule Meeting](https://calendly.com/a-vu) | bioinformatics, data model and annotations, data upload & technical issues 
-| Elvira Mitraka | Sage Bionetworks | Bioinformatics Engineer |  [Email](mailto:gray-foundation-service@sagebase.org) / include `working groups` in subject for correct routing | working groups, data model and annotations
-| Kimberly Corrigan | Sage Bionetworks | Governance Analyst | [Email](mailto:gray-foundation-service@sagebase.org) / include `governance` in subject for correct routing | data use/transfer agreements, other data governance
-
-### Why should I share data? 
+#### Why should I share data? 
 
 1. Engage and develop connections with the community 
 2. Have a remote respository of data for future researchers 
@@ -15,35 +16,34 @@
 4. Saves time and advances scientific discovery
 5. Many grants and journals now require open-access-data
 
-### Where will my data be stored? 
+#### Where will my data be stored? 
 
-Data is stored on synapse.org. There, you can organize your data by specific assays.  FOr more info, see [Submitting Data]()
+Data is stored on [synapse](synapse.org). There, you can organize your data by specific assays.  FOr more info, see [Submitting Data]()
 
-### Should I wait until a paper is published before sharing data? 
+#### Should I wait until a paper is published before sharing data? 
 
 You may upload your data and keep it stored privately until your paper is released if that is what you choose to do.  
 
 
-### What is cBioportal? 
+#### What is cBioportal? 
 
 cBioportal is an open-source interactive platform to visualize molecular and clinical attributes. For certain data sets on Synapse, visualization will be available on cBioportal.
 
-### What kind of data should be shared? 
+#### What kind of data should be shared? 
 
 Omics data, imaging data, clinical data, or other types of data that are important to the experiment should be shared along with protocols to replicate those experiments.
 If you are unsure, please feel free to contact the DCC.  
 
-### Can I use Synapse/Sage Bionetworks resources to fulfill the NIH data sharing plan requirements? 
+#### Can I use Synapse/Sage Bionetworks resources to fulfill the NIH data sharing plan requirements? 
 Yes, we are happy to help you work on a data sharing plan that will fulfill the NIH requirements.  
 
-### What is a data model?
+#### What is a data model?
 
-    > A data model organizes data elements and standardizes how the data elements relate to one another. 
-    It explicitly determines the structure of the data. 
+> A data model organizes data elements and standardizes how the data elements relate to one another.
+> It explicitly determines the structure of the data. 
+> -- [Princeton University](https://cedar.princeton.edu/understanding-data/what-data-model)
 
-   -- [Princeton University](https://cedar.princeton.edu/understanding-data/what-data-model)
-
-### Where does the Gray Foundation data model come from? 
+#### Where does the Gray Foundation data model come from? 
 
 The Gray Foundation’s data model is derived from several data standards such as the [Genomics Data Commons](https://gdc.cancer.gov/about-data/data-standards) but has also been adapted to fit the needs of the consortium. 
 It outlines, defines, and standardizes how data such as clinical data are represented and how they relate to one another, e.g. a patient has a diagnosis and receives therapy. 
@@ -53,116 +53,99 @@ The section [Clinical Data](/data-model/clinical-data) explains what clinical da
 In the data model, attributes are grouped into “components” or “modules”, e.g. patient-related attributes such as `age`, `sex`, etc., are in a patient core component. 
 Attributes appear as columnnar fields in a table when collecting data. They may be required or optional and may have controlled terminologies for the values.
 
-### What is metadata?
+#### What is metadata?
 
-    > Metadata is additional, standardized information included alongside the data to give it context—data about the data, if you will. 
-    Metadata is what allows data in the portal to be searchable, discoverable, accessible, re-usable, and understandable to others, including those who were not involved in the data generation process.
-    Metadata can be descriptive (i.e., the name of the file), administrative (i.e., provenance information), or research-based (i.e., information about the sampling and handling of data).
-    
-    -- [AD Knowledge Portal Glossary](https://sagebionetworks.jira.com/wiki/spaces/APD/pages/edit-v2/2062254225#Metadata)
+> Metadata is additional, standardized information included alongside the data to give it context—data about the data, if you will. Metadata is what allows data in the portal to be searchable, discoverable, accessible, re-usable, and understandable to others, including those who were not involved in the data generation process. Metadata can be descriptive (i.e., the name of the file), administrative (i.e., provenance information), or research-based (i.e., information about the sampling and handling of data).
+> -- [AD Knowledge Portal Glossary](https://sagebionetworks.jira.com/wiki/spaces/APD/pages/edit-v2/2062254225#Metadata)
 
 Metadata can also be thought of as "data about data", while clinical data can be thought of as "data about patients". 
 On the Synapse platform, adding metadata to data entities (files) is most often called "annotating", and metadata is interchangeably called "annotations". 
 The [Dataset and File Metadata](/data-model/dataset-file-metadata) section goes into more detail what annotations are expected for datasets and different file types.
 
-### How do I submit an issue regarding the data model?
+#### How do I submit an issue regarding the data model?
 
 For questions/discussions, suggestions, and issues (bugs) regarding the data model, it is preferred that members [submit an issue at our source repository](https://github.com/gf-dcc/data-model/issues/new). 
 Note that this requires a GitHub account. If you do not have a GitHub account, please reach out to one our DCC staff listed in [Contacts](#contacts).
 
-### What is this acronym stand for? 
+#### What is this acronym stand for? 
 
-| Acronym/Abbreviation         | Definition                                                                               |
-| ---------------------------- | ----------------------------------------------------------------------------------------  |
-| ACL                          | Access Control List -- a list of users and teams that control the permissions to an entity|
-| AR                           | Access Requirement or Access Restriction -- a condition for data access that must be met  |           
-| BAM                          | Bidirectional Associative Memory                                                         |
-| BCR                          | Biospecimen Core Resource                                                                |
-| CNV                          | Copy Number Variation                                                                    |
-| DCC                          | Data Coordinating Center                                                                 |
-| eRA                          | Electronic Research Administration                                                       |
-| MAGE-TAB                     | Microarray Gene Expression - Tabular format                                              |
-| PHI                          | Proctected Health Information                                                            |
-| TARGET                       | Therapeutically Applicable Research to Generate Effective Treatments                     |
-| t-SNE                        | t-distributed stochastic neighbor embedding                                              |
-| TSV                          | Tab Separated Values                                                                     |
-| VCFS                         | Version Controlled File System                                                           |
+_**Data Coordinating Center Words**_
 
-####  File Types                                                                                                             
+**ACL**: Access Control List -- a list of users and teams that control the permissions to an entity
+**AR**: Access Requirement or Access Restriction -- a condition for data access that must be met 
+**BAM**: Bidirectional Associative Memory  
+**BCR**: Biospecimen Core Resource  
+**CNV**: Copy Number Variation      
+**DCC**: Data Coordinating Center   
+**eRA**: Electronic Research Administration 
+**MAGE-TAB**: Microarray Gene Expression - Tabular format     
+**PHI**: Protected Health Information     
+**TARGET**: Therapeutically Applicable Research to Generate Effective Treatments 
+**t-SNE**: t-distributed stochastic neighbor embedding     
+**TSV**: Tab Separated Values 
+**VCFS**: Version Controlled File System    
 
-| Acronym/Abbreviation         | Definition                                                                               |
-| ---------------------------- | ---------------------------------------------------------------------------------------- |
-| csv                          | Comma Separated Values                                                                   |
-| fastq                        | Text-based format for storing both a biological sequence and corresponding quality score |
-| json                         | JavaScript Object Notation                                                               |
-| maf                          | Mutation Annotation Format                                                               |
-| rds                          | Ray Dream Studio (contains three-dimensional objects and animation settings)             |
-| tsv                          | Tab separated value                                                                      |
-| txt                          | Text                                                                                     |
-| xml                          | Extensible Markup Language                                                               |
+_**File Types**_   
+**csv**: Comma Separated Values     
+**fastq**: Text-based format for storing both a biological sequence and corresponding quality score  
+**json**: JavaScript Object Notation 
+**maf**: Mutation Annotation Format 
+**rds**: Ray Dream Studio (contains three-dimensional objects and animation settings) 
+**tsv**: Tab separated value 
+**txt**: Text  
+**xml**: Extensible Markup Language 
 
+_**Scientific Assays**_    
+**CyCIF**: Cyclic Immunofluorescence  
+**CyTOF**: Cytometry by time of flight 
+**DLP+**: DNA transposition single-cell library preparation      
+**FACS**: Fluorescence-activated cell sorting      
+**FISH**: Fluorescence in Situ Hybridization 
+**H&E**: Hematoxylin and eosin stain 
+**IHC**: Immunohistochemistry 
+**inferCNV**: Inferred copy number variation    
+**scDNA**: Single cell DNA sequencing 
+**scRNA**: Single cell RNA sequencing 
+**scWGS**: Single cell whole genome sequencing      
+**t-CYCIF**: Tissue-based cyclic immunofluorescence   
+**TMAs**: Tissue Microarrays  
 
-#### Scientific Assays                                                                                              
+_**Breast Cancer Specific Words**_      
 
-| Acronym/Abbreviation         | Definition                                                                               |
-| ---------------------------- | ---------------------------------------------------------------------------------------- |
-| CyCIF                        | Cyclic Immunofluorescence                                                                |
-| CyTOF                        | Cytometry by time of flight                                                              |
-| DLP+                         | DNA transposition single-cell library preparation                                        |
-| FACS                         | Fluorescence-activated cell sorting                                                      |
-| FISH                         | Fluorescence in Situ Hybridization                                                       |
-| H&E                          | Hematoxylin and eosin stain                                                              |
-| IHC                          | Immunohistochemistry                                                                     |
-| inferCNV                     | Inferred copy number variation                                                           |
-| scDNA                        | Single cell DNA sequencing                                                               |
-| scRNA                        | Single cell RNA sequencing                                                               |
-| scWGS                        | Single cell whole genome sequencing                                                      |
-| t-CYCIF                      | Tissue-based cyclic immunofluorescence                                                   |
-| TMAs                         | Tissue Microarrays                                                                       |
+**AV**: Alveolar Cells      
+**BA**: Basal Cells  
+**BL**: Borderline (both basal and luminal)      
+**BRCA 1/2**: Breast Cancer Type 1, 2    
+**Cas9**: Clustered regularly interspaced short palindromic repeats (CRISPR) associated protein 9   
+**CNA**: Copy Number Alteration     
+**DCIS**: Ductal carcinoma in situ   
+**FFPE**: Formalin-fixed, paraffin-embedded 
+**HS**: Hormone Sensing Cells      
+**LOH**: Loss of Heterozygosity     
+**LP**: Luminal Progenitors 
+**LUM**: Subset within ER+ mature luminal cells enriched in BRCA2 mutations   
+**MECs**: Mammary Epithelial Cell    
+**ML**: Mature Luminal      
+**RNAi**: RNA interference    
+**ROS**: Reactive Oxygen Species    
+**SNV**: Single nucleotide variant  
+**TNBC**: Triple Negative Breast Cancer     
+**WOO**: Window of opportunity clinical trials    
+**WT**: Wildtype     
 
+_**Web Applications**_
+**API**: Application Programming Interface 
+**CI/CD**: Continuous integration/continuous delivery      
+**DCA**: Data Curator App    
+**HTTP**: Hypertext Transfer Protocol 
+**REST**: Representational State Transfer   
+**URL**: Universal Resource Locator 
+**UUID**: Universally Unique Identifier     
 
-#### Breast Cancer Specific Words                                                                                          
+_**Related Research Organizations**_
 
-| Acronym/Abbreviation         | Definition                                                                               |
-| ---------------------------- | ---------------------------------------------------------------------------------------- |
-| AV                           | Alveolar Cells                                                                           |
-| BA                           | Basal Cells                                                                              |
-| BL                           | Borderline (both basal and luminal)                                                      |
-| BRCA 1/2                     | Breast Cancer Type 1, 2                                                                  |
-| Cas9                         | Clustered regularly interspaced short palindromic repeats (CRISPR) associated protein 9  |
-| CNA                          | Copy Number Alteration                                                                   |
-| DCIS                         | Ductal carcinoma in situ                                                                 |
-| FFPE                         | Formalin-fixed, paraffin-embedded                                                        |
-| HS                           | Hormone Sensing Cells                                                                    |
-| LOH                          | Loss of Heterozygosity                                                                   |
-| LP                           | Luminal Progenitors                                                                      |
-| LUM                          | Subset within ER+ mature luminal cells enriched in BRCA2 mutations                       |
-| MECs                         | Mammary Epithelial Cell                                                                  |
-| ML                           | Mature Luminal                                                                           |
-| RNAi                         | RNA interference                                                                         |
-| ROS                          | Reactive Oxygen Species                                                                  |
-| SNV                          | Single nucleotide variant                                                                |
-| TNBC                         | Triple Negative Breast Cancer                                                            |
-| WOO                          | Window of opportunity clinical trials                                                    |
-| WT                           | Wildtype                                                                                 |
-
-
-#### Web Applications 
-| Acronym/Abbreviation         | Definition                                                                               |
-| ---------------------------- | ---------------------------------------------------------------------------------------- |
-| API                          | Application Programming Interface                                                        |
-| CI/CD                        | Continuous integration/continuous delivery                                               |
-| DCA                          | Data Curator App                                                                         |
-| HTTP                         | Hypertext Transfer Protocol                                                              |
-| REST                         | Representational State Transfer                                                          |
-| URL                          | Universal Resource Locator                                                               |
-| UUID                         | Universally Unique Identifier                                                            |
-
-#### Related Research Organizations 
-| Acronym/Abbreviation         | Definition                                                                               |
-| ---------------------------- | ---------------------------------------------------------------------------------------- |
-| GDC                          | Genomic Data Commons                                                                     |
-| HTAN                         | Human Tumor Atlast Network                                                               |
-| NCI                          | National Cancer Institute                                                                |
-| NIH                          | National Institutes of Health                                                            |
-| TCGA                         | The Cancer Genome Atlas                                                                  |
+**GDC**: Genomic Data Commons 
+**HTAN**: Human Tumor Atlas Network 
+**NCI**: National Cancer Institute  
+**NIH**: National Institutes of Health     
+**TCGA**: The Cancer Genome Atlas    
