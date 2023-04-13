@@ -1,8 +1,8 @@
 {
   "onboarding-checklist": "Onboarding Checklist",
-  "creating-account": "Creating an account",
+  "account-setup": "Account Setup",
   "dsp-template": "Completing a Data Sharing Plan (DSP)",
-  "contributing-data": "Contributing Data",
-  "data-processing": "Processing Data",
-  "data-analysis": "Analyzing Data"
+  "data-processing": "Data Processing/Generation",
+  "data-sharing": "Data Sharing",
+  "data-analysis": "Data Analysis"
 }
