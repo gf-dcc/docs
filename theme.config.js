@@ -4,12 +4,14 @@ export default {
   titleSuffix: ' – Nextra',
   nextLinks: true,
   prevLinks: true,
-  search: true,
-  customSearch: null, // customizable, you can use algolia for example
   darkMode: true,
   footer: true,
   footerText: ``,
   footerEditLink: `Edit this page on GitHub`,
+  navigation: {
+    prev: true,
+    next: true
+  }
   logo: (
     <>
       <svg>...</svg>
