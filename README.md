@@ -11,8 +11,9 @@ Alternatively, if you do not have a GitHub account or if the issue is sensitive,
 ## For Documentation Contributors
 
 Please add or update a page/section in a new branch and submit a pull request (PR).
+It is helpful to read this [guide to MDX and Markdown](https://kabartolo.github.io/chicago-docs-demo/docs/mdx-guide/writing/) (knowledge of Markdown only will be sufficient for most sections).
 
-We're using the [Nextra](https://github.com/shuding/nextra) docs theme.
+We're using the [Nextra](https://github.com/shuding/nextra) docs theme. 
 
 ### Guide to Getting Started Locally 
 
