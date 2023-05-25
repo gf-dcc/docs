@@ -26,7 +26,7 @@ export default {
   banner: {
     key: 'beta-announcement',
     text: <a href="https://nextra.site" target="_blank">
-      Welcome! Our docs are under construction!
+      Welcome to the docs! Some things are still under development. Feedback is welcome.
     </a>,
   },
   chat: {

@@ -1,24 +1,26 @@
+import { Steps } from 'nextra-theme-docs'
 import { Callout } from 'nextra-theme-docs'
 import Image from 'next/image'
 
-## Data Access
+# Data Access
 
 Data access for Gray Foundation corresponds to the general [data access types described for the Synapse platform](https://help.synapse.org/docs/Data-Access-Types.2014904611.html). 
 
-### Data Access Tags in the Portal 
+## Data Access Tags in the Portal 
 
 <Callout type="info" emoji="ℹ️">
   This is a future visual labeling scheme to help represent access in a more user-friendly manner in the portal.
 </Callout>
 
-#### Phase 1 Datasets
+<Steps>
+### Phase 1 Datasets
 
 ##### "PRIVATE"
 <Image src="/badge_phase1_PRIVATE.svg" alt="private data access" width={160} height={30} />
 Phase 1 datasets will likely not appear in the portal at all. 
 If they do, the pink "PRIVATE" tag will indicate that this data exists on Synapse, but is likely still under compilation/analysis, and there is no interest in sharing it at the moment. Do not contact the team regarding the data.
 
-#### Phase 2 Datasets
+### Phase 2 Datasets
 
 ##### "COLLABORATIVE ONLY"
 <Image src="/badge_phase2_COLLAB.svg" alt="collaborative data access" width={270} height={30} />
@@ -28,7 +30,7 @@ Researchers interested in collaboration **will have to request access through co
 - Admins (PIs and Data Leads) for the team's repository can grant view or download access by adding individuals or teams to the folder or project. This allows data to be shared for collaboration without moving the data to Phase 3.
 - In conversational context, this data might also be referred to as "under embargo".
 
-#### Phase 3 Datasets 
+### Phase 3 Datasets 
 
 Phase 3 datasets are often data released with or after publication. However, there might still be conditions placed on access.
 Within Phase 3, data has several access classes:
@@ -48,6 +50,8 @@ Within Phase 3, data has several access classes:
 <Image src="/badge_phase3_OPEN.svg" alt="open data access" width={130} height={30} />
 - Anyone on the web can view and download this data, no account needed.
 - This is usually applicable for metadata.
+
+</Steps>
 
 For more information, please read policies in our [Data Access](/help/data-access) page or reach out to our governance analysis team at gray-foundation-service@sagebase.org. 
 
