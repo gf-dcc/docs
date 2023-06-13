@@ -22,7 +22,35 @@ Data uploaded to Synapse may also be processed by the DCC for:
 - File format conversions
 - Other data transformations to allow data to be loaded and shared in cBioPortal/other analysis application
 
+## Data organization corresponds to processing stages
 
+Data is organized by its assay type and, logically, its processed type in folders. 
+Each top-level folder and all of its subfolders must contain data of the same type (see details below).
 
+The DCC will create empty, common top-level folders as well as subfolders for the expected levels of data. 
+This depends on whether both raw or processed data are expected. 
+Sometimes only raw data or only processed data is expected. 
+If only one level of data is expected, everything is "collapsed" into only one folder and there are no subfolders.
+Subfolders must be of the same data type and level as the root folder they are contained. 
 
+```
+.
+└── single_cell_RNA_seq
+    ├── single_cell_RNA_seq_raw
+        ├── fileA.fastq
+        ├── fileB.fastq
+        ├── fileC.fastq
+        └── fileD.fastq
+    └── single_cell_RNA_seq_semiprocessed
+        ├── fileA.bam
+        ├── fileB.bam
+        ├── fileC.bam
+        └── fileD.bam
+    └── single_cell_RNA_seq_processed
+        ├── raw_counts.txt
+        ├── normalized_counts.txt
+    └── single_cell_RNA_seq_processed_2
+        ├── t-SNE.txt
+
+```
 
