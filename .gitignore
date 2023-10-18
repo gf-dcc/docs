@@ -1,38 +1,20 @@
-.DS_STORE
+# Dependencies
+/node_modules
 
-# Dependency directory
-node_modules
+# Production
+/build
 
-scripts/flow/*/.flowconfig
-.flowconfig
-*~
-*.pyc
-.grunt
-_SpecRunner.html
-__benchmarks__
-build/
-remote-repo/
-coverage/
+# Generated files
+.docusaurus
+.cache-loader
 
-# Caches
-.module-cache
-.npm
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Tests
-fixtures/dom/public/react-dom.js
-fixtures/dom/public/react.js
-test/the-files-to-test.generated.js
-
-*.log*
-chrome-user-data
-
-
-.idea
-*.iml
-.vscode
-*.swp
-*.swo
-
-# REPL history
-.node_repl_history
-.next
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
