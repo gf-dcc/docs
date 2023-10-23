@@ -39,7 +39,7 @@ If you need help, please contact the DCC.
 **For the most typical and robust workflow, here are the steps with the Python command-line client:** 
 
 1. **Install Python package** from PyPI: https://pypi.org/project/synapseclient/. This will also automatically install the command line utility. Test out that the command line utility is working by typing `synapse help` and feel free to review [docs](https://python-docs.synapse.org/build/html/articles/cli.html) for the Python CLI client.
-2. For large uploads, it is best to **create an access token**. Go to your **Account profile > Account Settings > Personal Access Tokens > Create new token**.
+2. For large uploads, it is best to **create an access token**, if you haven't already through the earlier [Account Setup](/onboarding/account-setup) guidance. Go to your **Account profile > Account Settings > Personal Access Tokens > Create new token**.
 3. For convenience, copy and paste the token into a `.synapseConfig` text file. This text file simply looks like:
 ```
 [authentication]
@@ -50,7 +50,9 @@ authtoken = sometokenstringxxxxxxxxxxxxxxxxxx
 
 `synapse manifest --parent-id syn12345678 --manifest-file manifest.txt PATH_TO_DIR_WITH_FILES` 
 
-5. This should create a manifest file `manifest.txt` for the tool to reference. Now check that `.synapseConfig` is present locally to provide authentication. You can now do:
+At this step, if you are *not* a Certified User, the tool will output a message for this issue. Review and complete the Certified User portion of [Account Setup](/onboarding/account-setup) before proceeding.
+
+5. Successful execution should create a manifest file `manifest.txt` for the tool to use. Now make sure that `.synapseConfig` is present locally to provide authentication. You can now do:
 
 `synapse sync manifest.txt`
 
