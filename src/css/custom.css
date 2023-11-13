@@ -5,6 +5,21 @@
  */
 
 /* You can override the default Infima variables here. */
+
+
+/* Change link color for normal (unvisited) links */
+a {
+  color: #396182;
+  font-weight: bold;
+}
+
+/* Change link color for hovered links */
+a:hover {
+  color: #333; /* Dark gray color */
+  text-decoration: underline;
+}
+
+
 :root {
   --ifm-color-primary: #465062;
   --ifm-color-primary-dark: #465062;
@@ -28,3 +43,4 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+

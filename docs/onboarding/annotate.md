@@ -24,23 +24,27 @@ These templates ensure that your data is well-documented and organized, making i
 
 <details>
 <summary> I cannot see my project or folder  </summary>
+
 This is usually a permissions issue. Please contact us to get your account added.
 
 </details>
 <details>
 <summary> I do not see a template that is a good fit for my data </summary>
+
 Usually the right template should already exist. Contact us and we'll add the right template.
 
 </details>
 
 <details>
 <summary> The app hangs or crashes </summary>
+
 Contact the DCC and we'll contact the tooling team for troubleshooting.
 
 </details>
 
 <details>
 <summary> I have a validation issue </summary>
+
 Check the validation error messages, and if it is confusing or you disagree, please contact the DCC.
 
 </details>
