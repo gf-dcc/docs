@@ -4,19 +4,71 @@ sidebar_position: 1
 
 # Overview
 
-[Watch this video for an overview of the data sharing process](https://www.canva.com/design/DAFtre0aRZQ/VP-3prBX72sR7xpqYc8clg/watch)
+[Watch this video for an overview of the data sharing process](https://www.canva.com/design/DAFtre0aRZQ/6gapMkufDJAWr2bxCYnM6A/watch?utm_content=DAFtre0aRZQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
+
+<center>
+
+    ```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#000',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#000',
+      'lineColor': '#000',
+      'secondaryColor': '#006100',
+      'secondaryBorderColor': '#fff',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+flowchart LR
+subgraph ''
+    A[Data Sharing Plan]:::someclass; 
+
+    A2[Governance Information]:::someclass; 
+    B[Storage of Anonymized\n Clinical Data and Data Files]:::someclass; 
+    C[Sample Management Tables]:::someclass; 
+    C2[Storage of Protocols\n Materials, Methods]:::someclass;
+    D[Metadata]:::someclass;
+
+    click B "https://www.github.com" "Open this in a new tab" _blank
+
+end
+    A ==> S[Synapse]:::someclass;
+    A2 ==> S;
+    B ==> S;
+    C ==> S;
+    C2 ==> S;
+    D ==> S;
+    S ==> P[Portal]:::someclass;
+    E[Documentation]:::someclass==> P;
+    subgraph ' '
+    P ==> P1[Phase 1\n Private]:::someclass;
+    P1 ==> P2[Phase 2\n Consortium Members]:::someclass;
+    P2 ==> P3[Phase 3\n General Public]:::someclass;
+
+end
+subgraph '   '
+J([cBioPortal]):::someclass;
+K([Minerva]):::someclass;
+L([CellXGene]):::someclass;
+end
+    P3 ==> J;
+    P3 ==> K;
+    P3 ==> L;
+    
+    classDef someclass font-size:35pt;
+    classDef someclass fill:#465062;
+    classDef someclass color:#ffffff;
+    classDef someclass font-style: bold;
 
 
 
-1. **Create a Synapse Account**: Synapse is the platform used to store and download data. Start by creating a Synapse account [here](https://www.synapse.org/#!RegisterAccount:0). You will also need to complete a [certification quiz](https://www.synapse.org/#!Quiz:Certification) if you plan to upload data. 
+    ```
+</center>
 
-2. **Send Sage your username**: If you are part of a research team related to the Gray Foundation, the Data Coordination Center (aka: Sage) will create a team for you (if it hasn't already been created) and add you to the team. Submit your user name [here](https://sagebionetworks.jira.com/servicedesk/customer/portal/17/group/24/create/159).
-
-3. **Navigate to Your Projects**: Once you have an account, you can access your projects. These projects are categorized into three types:
-   - `Created By Me`: Projects created by you.
-   - `Favorite Projects`: Projects you've marked as favorites.
-   - `Shared With Me`: Projects you have access to. 
-   - `Team Projects`: Projects associated with your research team.
-
-  ![Projects](image-2.png)
+Typical NF projects often follow a similar timeline, starting with data sharing plans and progressing through phases of data validation, documentation, and a dedicated data portal. These projects ultimately reach Phase 3, where their data becomes accessible to the public, facilitating collaboration and research.
 

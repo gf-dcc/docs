@@ -6,8 +6,8 @@ const lightCodeTheme = themes.github;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation',
-  tagline: 'Gray Foundation BRCA Precancer Atlas',
+  title: 'Documentation for Gray Foundation BRCA Precancer Atlas',
+  tagline: 'The Gray Foundation funded by Jon and Mindy Gray in 2014, is focused on accelerating cancer research to study BRCA-associated precancer and early cancerous lesions in order to develop new prevention, early detection, and interception approaches. Proposals are solicited annually to fund BRCA-gene related research. Awardees of the Gray Foundation are encouraged to collaborate together',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

@@ -22,4 +22,10 @@ If you have any questions or need assistance, please submit a ticket to the [DCC
 
 5. To join a team, you must accept the invitation by clicking on the link provided in the email and following the instructions on the Synapse team page.
 
+6. **Navigate to Your Projects**: Once you have an account, you can access your projects. These projects are categorized into three types:
+   - `Created By Me`: Projects created by you.
+   - `Favorite Projects`: Projects you've marked as favorites.
+   - `Shared With Me`: Projects you have access to. 
+   - `Team Projects`: Projects associated with your research team.
 
+  ![Projects](image-2.png)
