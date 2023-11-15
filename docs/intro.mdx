@@ -1,0 +1,66 @@
+---
+sidebar_position: 1
+---
+
+# Overview
+
+[Watch this video for an overview of the data sharing process](https://www.canva.com/design/DAFtre0aRZQ/6gapMkufDJAWr2bxCYnM6A/watch?utm_content=DAFtre0aRZQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+
+
+<center>
+
+    ```mermaid
+%%{
+  init: {
+    'securityLevel': 'loose',
+    'theme': 'base',
+    'themeVariables': {
+      'fontSize': '50px',
+      'primaryColor': '#385D7F',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7196B5',
+      'lineColor': '#000',
+      'secondaryBorderColor': '#fff',
+      'tertiaryColor': '#FFFFFF',
+      'tertiaryBorderColor': '#FFFFFF'}
+  }
+}%%
+flowchart LR
+subgraph   
+    A[Data Sharing Plan]; 
+    A2[Governance Information]; 
+    B[Storage of Anonymized\n Clinical Data and Data Files]; 
+    C[Sample Management Tables]; 
+    C2[Storage of Protocols\n Materials, Methods];
+    D[Metadata];
+
+end
+
+    A ==> S[Synapse];
+    A2 ==> S;
+    B ==> S;
+    C ==> S;
+    C2 ==> S;
+    D ==> S;
+    S ==> P[Portal];
+    E[Documentation]==> P;
+    subgraph          
+    P ==> P1[Phase 1\n Private 🔒]:::someclass;
+    P1 ==> P2[Phase 2\n Consortium Members]:::someclass;
+    P2 ==> P3[Phase 3\n General Public]:::someclass;
+    classDef someclass fill:#576371
+
+end
+subgraph       
+J([cBioPortal]);
+K([Minerva]);
+L([CellXGene]);
+end
+    P3 ==> J;
+    P3 ==> K;
+    P3 ==> L;
+        ```
+</center>
+
+Typical NF projects often follow a similar timeline, starting with data sharing plans and progressing through phases of data validation, documentation, and a dedicated data portal. These projects ultimately reach Phase 3, where their data becomes accessible to the public, facilitating collaboration and research.
+
