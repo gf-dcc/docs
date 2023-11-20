@@ -6918,10 +6918,12 @@ node-releases@^2.0.13:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.13.tgz#d5ed1627c23e3461e819b02e57b75e4899b1c81d"
   integrity sha512-uYr7J37ae/ORWdZeQ1xxMJe3NtdmqMC/JZK+geofDrkLUApKRHPd18/TxtBOJ4A0/+uUIliorNrfYV6s1b02eQ==
 
+
 node@^20.9.0:
   version "20.9.0"
   resolved "https://registry.yarnpkg.com/node/-/node-20.9.0.tgz#b183303786c736a2563e225b386693f618c793b2"
   integrity sha512-5nZdun785z1iaF3zKby8SN4yHgQykqFHo15tMR2cXNmteciGrs3brPEIR7qnBic6kflEyldCGTey9kywANASzA==
+  
   dependencies:
     node-bin-setup "^1.0.0"
 
