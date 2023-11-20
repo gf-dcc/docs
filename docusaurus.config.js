@@ -74,6 +74,11 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
+            href: 'https://join.slack.com/t/gfbrcaprecanceratlas/shared_invite/zt-254dbv304-F8ZjGMoFsHISGS1ouyp_Iw',
+            label: 'Join Slack Channel',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/gf-dcc',
             label: 'GitHub',
             position: 'right',
