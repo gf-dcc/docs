@@ -138,6 +138,12 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Sage Bionetworks, Built with Docusaurus.`,
       },
+      algolia: {
+        appId: '8KBY934MOI',
+        apiKey: 'd1fdceacdb284264b8094eb1f9bfedcd',
+        indexName: 'graybrcaatlas',
+        contextualSearch: true, // Optional, but useful for versioned docs
+      },
       prism: {
         theme: lightCodeTheme,
         additionalLanguages: ['bash', 'diff', 'json'],
