@@ -20,31 +20,16 @@ Here's are examples of the google sheets that are generated for common assays:
 
 These templates ensure that your data is well-documented and organized, making it easier for you to manage and share your research.
 
-### 🛠️ Troubleshooting 
+## 🛠️ Troubleshooting Tips
 
-<details>
-<summary> I cannot see my project or folder  </summary>
+### Can't Find Your Project or Folder?
+This issue often arises from permission settings. Reach out to us for assistance in getting your account properly set up.
 
-This is usually a permissions issue. Please contact us to get your account added.
+### Missing a Suitable Template for Your Data?
+Typically, an appropriate template should be available. If not, let us know so we can provide a suitable template for you.
 
-</details>
-<details>
-<summary> I do not see a template that is a good fit for my data </summary>
+### Experiencing App Freezes or Crashes?
+Please inform the DCC about this issue. We will coordinate with our technical team to resolve it as soon as possible.
 
-Usually the right template should already exist. Contact us and we'll add the right template.
-
-</details>
-
-<details>
-<summary> The app hangs or crashes </summary>
-
-Contact the DCC and we'll contact the tooling team for troubleshooting.
-
-</details>
-
-<details>
-<summary> I have a validation issue </summary>
-
-Check the validation error messages, and if it is confusing or you disagree, please contact the DCC.
-
-</details>
+### Encountering Validation Errors?
+First, review the validation error messages carefully. If anything is unclear or you believe there's a mistake, please get in touch with the DCC for further assistance.
