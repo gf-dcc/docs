@@ -11,7 +11,7 @@ sidebar_position: 5
 - [Data Storage](#data-storage)
 - [Data Sharing](#data-sharing)
 - [About cBioportal](#about-cbioportal)
-- [Using Synapse/Sage Bionetworks Resources](#using-synapse-sage-bionetworks-resources)
+- [Using Synapse/Sage Bionetworks Resources](#using-synapsesage-bionetworks-resources)
 
 </details>
 
