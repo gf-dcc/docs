@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Understanding Governance
+# Governance Policies
 
 Data governance involves managing data access and availability effectively.
 
