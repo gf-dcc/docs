@@ -1,0 +1,14 @@
+{
+  "label": "Workflows and SOPs",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Workflows and Standard Operating Procedures"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+  
+}
