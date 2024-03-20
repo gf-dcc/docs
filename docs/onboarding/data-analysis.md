@@ -28,6 +28,6 @@ Below, we provide more details on analysis apps and which data types are targete
 #### External Viewers
 
 - [cBioPortal](https://docs.cbioportal.org/) for Cancer Genomics was originally developed at Memorial Sloan Kettering Cancer Center (MSK) for sharing genomic data. We provide a custom instance for the Gray Foundation.
-Sage and MSK teams will assist in the transfer of data to cBioportal. To learn more about the behind the scenes curation process [see here](https://github.com/cBioPortal/datahub/blob/master/docs/curation-process.md).
+Sage and MSK teams will assist in the transfer of data to cBioportal. Refer to the workflow [here](/docs/workflows/cBioPortal).
 
-- [CELLxGENE](https://github.com/chanzuckerberg/cellxgene) ("cell-by-gene") is an interactive data explorer specifically designed for analyzing single-cell datasets. 
+- [CELLxGENE](https://github.com/chanzuckerberg/cellxgene) ("cell-by-gene") is an interactive data explorer specifically designed for analyzing single-cell datasets. (TO DO: Link to workflow.)
