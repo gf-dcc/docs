@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 ---
+
 # Clinical metadata and file upload
 
 import Tabs from '@theme/Tabs';
@@ -75,16 +76,16 @@ This guide provides step-by-step instructions on how to import clinical metadata
 
 Before you begin, identify the destination for your data. Most data are organized in pre-assigned folders based on assay and data levels. You can create subfolders for additional organization, especially for batch-specific data.
 
-## Data Organization
+#### Data Organization
 
-Data is organized by its assay type and, logically, its processed type in folders. 
+Data is organized by its assay type and, logically, its processed type in folders.
 Each top-level folder and all of its subfolders must contain data of the same type (see details below).
 
-The DCC will create empty, common top-level folders as well as subfolders for the expected levels of data. 
-This depends on whether both raw or processed data are expected. 
-Sometimes only raw data or only processed data is expected. 
+The DCC will create empty, common top-level folders as well as subfolders for the expected levels of data.
+This depends on whether both raw or processed data are expected.
+Sometimes only raw data or only processed data is expected.
 If only one level of data is expected, everything is "collapsed" into only one folder and there are no subfolders.
-Subfolders must be of the same data type and level as the root folder they are contained. 
+Subfolders must be of the same data type and level as the root folder they are contained.
 
 ```plaintext
 └── single_cell_RNA_seq
@@ -111,7 +112,6 @@ By understanding the data generation process, the Data Coordination Center (DCC)
 - Are there any recommendations that can be provided to ensure a smooth workflow and avoid potential issues in the downstream analysis?
 - What additional resources can the DCC offer, if available?
 
-### Data processing by the data contributors
 
 Depending on your funded aims, project teams may have specialized data workflows, which can include:
 
@@ -120,8 +120,6 @@ Depending on your funded aims, project teams may have specialized data workflows
 - Combining different types of data.
 
 During the onboarding process, it is essential to discuss the anticipated workflow, especially if it is complex or deviates from the standard. Project teams should provide information or documentation regarding their workflow.
-
-### Data processing by Sage
 
 In addition to the project team's data processing, the DCC also performs data processing on the uploaded data in Synapse. This processing includes:
 
@@ -187,5 +185,6 @@ Under rare unique circumstances, the DCC can explore the following options:
 - Transferring from a custom S3 bucket
 
 Feel free to adjust or customize it according to your needs!
-</TabItem>
+        </TabItem>
+    </Tabs>
 </div>
