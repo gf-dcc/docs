@@ -23,7 +23,7 @@ flowchart TB
     annotatesDCA --> reviewData["SAGE: Reviews data/metadata for completeness <br>and correctness with Gray Foundation data model"]:::Sage
     reviewData --> reviewResult["CONTRIBUTOR: Receives confirmation of data completeness<br>or receives requests for additional data or corrections"]:::Contributor
     reviewResult --> decidePrep1
-    decidePrep1{{"Does the contributor have the expertise and resources to independently manage and prepare data submissions for cBioPortal, or is intervention from Sage required to facilitate this process?"}}:::Decision
+    decidePrep1{{"Does the contributor have the expertise and resources<br>to independently manage and prepare data submissions for cBioPortal<br>or is intervention from Sage required to facilitate this process?"}}:::Decision
     reviewResult -.-> uploadsData
     reviewResult -.-> annotatesDCA
     decidePrep1 -->|yes| directSubmissionProcess["CONTRIBUTOR: Works directly with MSKCC on<br>submission process of data to cBioPortal"]:::Contributor
