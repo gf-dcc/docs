@@ -9,6 +9,8 @@ The steps for contribution are [detailed here](https://github.com/cBioPortal/dat
 
 ```mermaid
 
+
+
 flowchart TB
 
     classDef Sage fill:#1A7DBB,color:white,stroke:#333,stroke-width:2px;
@@ -26,9 +28,7 @@ flowchart TB
     decidePrep1{{"Does the contributor have the expertise and resources<br>to independently manage and prepare data submissions for cBioPortal<br>or is intervention from Sage required to facilitate this process?"}}:::Decision
     reviewResult -.-> uploadsData
     reviewResult -.-> annotatesDCA
-    decidePrep1 -->|yes| directSubmissionProcess["CONTRIBUTOR: Works directly with MSKCC on<br>submission process of data to cBioPortal"]:::Contributor
     decidePrep1 -->|no| fallbackToSage["SAGE: Handles preparation of<br>data to be submitted to cBioPortal"]:::Sage
-    directSubmissionProcess --> uploadscBioData["SAGE/CONTRIBUTOR: Add or update cBioPortal dataset in Synapse"]
     fallbackToSage --> uploadscBioData:::Sage
     uploadscBioData --> validated["SAGE: Validates dataset and hands off to MSKCC Team"]:::Sage
     validated --> loadData["MSKCC: Loads data to cBioPortal private instance to be accessible in phase 2 (data can be viewed by consortium)"]:::MSKCC
@@ -37,5 +37,6 @@ flowchart TB
     informContributor --> updateGFPortal["MSKCC: Updates GF Data Portal with accession to share with funders/other teams"]:::MSKCC
     updateGFPortal --> moveToPhaseIII["CONTRIBUTOR: Confirms moving to data to <br> phase 3 (data can be viewed by public)"]:::Contributor
     moveToPhaseIII --> copiesDataPublic["MSKCC: Makes data available in public cBioPortal"]:::MSKCC
+
 
 ```
